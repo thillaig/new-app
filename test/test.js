@@ -5,7 +5,7 @@ describe('GET /', function() {
         //navigate to root and check the the response is "hello world"
         request(app).get('/').expect({
             status : true,
-            message : 'HI-1'
+            message : 'HI'
         }, done);
     });
 });
