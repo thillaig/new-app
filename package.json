@@ -1,0 +1,27 @@
+{
+  "name": "vin-decoder",
+  "version": "1.0.2",
+  "description": "To Decode a VIN and give Vehicle Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thillaig/vin-decoder.git"
+  },
+  "keywords": [
+    "VIN"
+  ],
+  "author": "Thillai Maharajan G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thillaig/vin-decoder/issues"
+  },
+  "homepage": "https://github.com/thillaig/vin-decoder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.3.0",
+    "supertest": "^6.1.3"
+  }
+}

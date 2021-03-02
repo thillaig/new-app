@@ -1,0 +1,7 @@
+#!/bin/sh
+ cd /home/ubuntu/new-app
+ git pull origin main
+ npm install — production
+ forever restart index.js
+ exit
+EOF
