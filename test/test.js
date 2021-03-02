@@ -6,9 +6,6 @@ describe('GET /', function() {
         request(app).get('/').expect({
             status : true,
             message : 'HI-1'
-        }, done).end(function(err, res) {
-            if (err) return done(err);
-            return done();
-        });
+        }, done);
     });
 });
