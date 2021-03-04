@@ -1,23 +1,6 @@
 #!/bin/sh
-cd /
 pwd
-cd ..
-cd ..
-cd ..
-cd home
-cd ubuntu
-pwd
-alias proj="cd new-app"
-pwd
-ls
-cd vin-decoder
-
-pwd
-cd ..
-
-cd new-app
-pwd
-proj
+cd /home/ubuntu/new-app
  pwd
  git pull origin main
  npm install
