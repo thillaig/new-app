@@ -1,8 +1,13 @@
 #!/bin/sh
 cd /
 pwd
-cd
-alias proj="cd home/ubuntu/new-app"
+cd ..
+cd ..
+cd ..
+cd home
+cd ubuntu
+pwd
+alias proj="cd new-app"
 pwd
 proj
  pwd
