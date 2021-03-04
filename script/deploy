@@ -1,5 +1,5 @@
 #!/bin/sh
- ln -s /home/ubuntu ~/new-app
+pwd
  cd new-app
  git pull origin main
  npm install
