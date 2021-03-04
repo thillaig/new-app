@@ -2,7 +2,8 @@
 cd /
 pwd
 alias proj="cd /home/ubuntu/new-app"
-. proj
+pwd
+proj
  pwd
  git pull origin main
  npm install
