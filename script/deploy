@@ -1,6 +1,6 @@
 #!/bin/sh
 pwd
-cd /home/ubuntu/new-app
+alias proj="cd /home/ubuntu/new-app"
 
  pwd
  git pull origin main
