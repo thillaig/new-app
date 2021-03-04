@@ -9,6 +9,8 @@ cd ubuntu
 pwd
 alias proj="cd new-app"
 pwd
+ls
+cd new-app
 proj
  pwd
  git pull origin main
