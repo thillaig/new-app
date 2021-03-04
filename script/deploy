@@ -1,5 +1,5 @@
 #!/bin/sh
-cs /
+cd /
 pwd
 alias proj="cd /home/ubuntu/new-app"
 . proj
