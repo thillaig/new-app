@@ -2,6 +2,6 @@
  cd /home/ubuntu/new-app
  git pull origin main
  npm install
- forever start index.js
+ forever restart index.js
  exit
 EOF
