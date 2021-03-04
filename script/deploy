@@ -1,6 +1,6 @@
 #!/bin/sh
  ln -s /home/ubuntu ~/new-app
- cd /home/ubuntu/new-app
+ cd new-app
  git pull origin main
  npm install
  forever start index.js
